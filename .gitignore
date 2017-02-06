@@ -1,0 +1,25 @@
+# vendoring
+vendor/
+# Temporary files
+tmp/
+## vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+## Bundler
+/.bundle/
+## Vagrant
+.vagrant/
+## Test Kitchen
+.kitchen/
+## nodejs
+node_modules/
+# Backup files
+*~
+
+# OS dependent files
+.DS_Store
+Thumbs.db
+Berksfile.lock

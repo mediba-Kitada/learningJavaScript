@@ -1,0 +1,6 @@
+/* ここにCSSを記載 */
+#mainCanvas { /* mainCanvasのスタイルを指定*/
+	width: 400px; /* 幅400px */
+	height: 400px; /* 高さ400px */
+	border: solid 1px black; /* 実線 1pxの幅 黒色 */
+}
