@@ -11,7 +11,6 @@ class Log {
   }
   [Symbol.iterator]() {
     // 反復可能なオブジェクトから配列のメソッド[Symbol.iterator]()を呼び出すことによってイテレータを返却
-    // Node.jsの場合、values()関数が利用できないので注意
     return this.messages[Symbol.iterator]();
   }
 }
